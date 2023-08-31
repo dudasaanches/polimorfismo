@@ -33,8 +33,8 @@ class divisão(Calculo):
     def calcular_valor(self):
        print(self.n1 / self.n2)
 
-n1 = int(input())
-n2 = int(input())
+n1 = int(input("Coloque o número: "))
+n2 = int(input("Coloque o número: "))
 somas = [soma(n1,n2), subtração(n1,n2), multiplicação(n1,n2), divisão(n1,n2)]
 for i in range(len(somas)):
     somas[i].calcular_valor()
